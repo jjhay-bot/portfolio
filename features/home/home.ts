@@ -22,14 +22,20 @@ export const PROJECTS: ProjectItem[] = [
     tags: ["saas", "operations"],
   },
   {
-    icon: "🛍️",
-    title: "Bookas",
-    description: "Appointment and schedule management for service businesses.",
-    link: "https://bookas.cofeeui.com/",
-    tags: ["booking", "Dashboard"],
+    icon: "🏨",
+    title: "BedderDeals",
+    description: "A modern hotel discovery and booking concept.",
+    link: "https://bedderdeals.cofeeui.com/",
   },
+  // {
+  //   icon: "🛍️",
+  //   title: "Bookas",
+  //   description: "Appointment and schedule management for service businesses.",
+  //   link: "https://bookas.cofeeui.com/",
+  //   tags: ["booking", "Dashboard"],
+  // },
   {
-    icon: "📚",
+    icon: "📚"
     title: "Learn",
     description: "Bite-sized software architecture and backend lessons.",
     link: "https://learn.cofeeui.com/",
@@ -39,12 +45,6 @@ export const PROJECTS: ProjectItem[] = [
     title: "Coffee Break",
     description: "Short development reads made for quick breaks.",
     link: "https://coffee-break-reads.cofeeui.com/",
-  },
-  {
-    icon: "🏨",
-    title: "BedderDeals",
-    description: "A modern hotel discovery and booking concept.",
-    link: "https://bedderdeals.cofeeui.com/",
   },
   {
     icon: "💳",
