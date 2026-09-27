@@ -8,13 +8,6 @@ export interface ProjectItem {
 
 export const PROJECTS: ProjectItem[] = [
   {
-    icon: "🌎",
-    title: "NearMe",
-    description: "Discover nearby products and local merchants for faster, same-day purchases.",
-    link: "https://nearme.cofeeui.com/",
-    tags: ["marketplace", "mobile-first"],
-  },
-  {
     icon: "🧁",
     title: "BakeBoard",
     description: "Orders, payments and production for home bakers.",
@@ -45,6 +38,13 @@ export const PROJECTS: ProjectItem[] = [
     title: "Coffee Break",
     description: "Short development reads made for quick breaks.",
     link: "https://coffee-break-reads.cofeeui.com/",
+  },
+  {
+    icon: "🌎",
+    title: "NearMe",
+    description: "Discover nearby products and local merchants for faster, same-day purchases.",
+    link: "https://nearme.cofeeui.com/",
+    tags: ["marketplace", "mobile-first"],
   },
   {
     icon: "💳",
