@@ -8,30 +8,17 @@ export interface ProjectItem {
 
 export const PROJECTS: ProjectItem[] = [
   {
-    icon: "🧁",
-    title: "BakeBoard",
-    description: "Orders, payments and production for home bakers.",
-    link: "https://bakeboard.cofeeui.com/",
-    tags: ["saas", "operations"],
-  },
-  {
     icon: "🏨",
     title: "BedderDeals",
     description: "A modern hotel discovery and booking concept.",
     link: "https://bedderdeals.cofeeui.com/",
   },
-  // {
-  //   icon: "🛍️",
-  //   title: "Bookas",
-  //   description: "Appointment and schedule management for service businesses.",
-  //   link: "https://bookas.cofeeui.com/",
-  //   tags: ["booking", "Dashboard"],
-  // },
   {
-    icon: "📚"
-    title: "Learn",
-    description: "Bite-sized software architecture and backend lessons.",
-    link: "https://learn.cofeeui.com/",
+    icon: "🧁",
+    title: "BakeBoard",
+    description: "Orders, payments and production for home bakers.",
+    link: "https://bakeboard.cofeeui.com/",
+    tags: ["saas", "operations"],
   },
   {
     icon: "☕",
@@ -40,9 +27,16 @@ export const PROJECTS: ProjectItem[] = [
     link: "https://coffee-break-reads.cofeeui.com/",
   },
   {
+    icon: "📚",
+    title: "Learn",
+    description: "Bite-sized software architecture and backend lessons.",
+    link: "https://learn.cofeeui.com/",
+  },
+  {
     icon: "🌎",
     title: "NearMe",
-    description: "Discover nearby products and local merchants for faster, same-day purchases.",
+    description:
+      "Discover nearby products and local merchants for faster, same-day purchases.",
     link: "https://nearme.cofeeui.com/",
     tags: ["marketplace", "mobile-first"],
   },
@@ -58,4 +52,11 @@ export const PROJECTS: ProjectItem[] = [
     description: "Wedding inspirations organized into one vision board.",
     link: "https://weds.cofeeui.com/",
   },
+  // {
+  //   icon: "🛍️",
+  //   title: "Bookas",
+  //   description: "Appointment and schedule management for service businesses.",
+  //   link: "https://bookas.cofeeui.com/",
+  //   tags: ["booking", "Dashboard"],
+  // },
 ];
