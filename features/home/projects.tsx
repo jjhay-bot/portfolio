@@ -1,5 +1,4 @@
 import type { ComponentPropsWithoutRef } from "react";
-import Image from "next/image";
 import { cn } from "@/lib/utils";
 import { PROJECTS } from "./home";
 
@@ -23,7 +22,6 @@ export default function Projects() {
             description={p.description}
             tags={p.tags}
             href={p.link}
-            preview={i === 0 ? "/projects/bedderdeals.png" : i === 1 ? "/projects/bakeboard.png" : undefined}
             className={cn(
               i === 0 && "bg-accent-lime min-h-96 row-span-2 col-span-2 xl:col-span-3",
               i === 1 && "bg-accent-sky",
@@ -46,7 +44,6 @@ function ProjectCard({
   description,
   tags,
   featured,
-  preview,
   featureNum = 1,
   ...props
 }: Omit<ComponentPropsWithoutRef<"a">, "target" | "rel"> & {
@@ -55,7 +52,6 @@ function ProjectCard({
   description?: string;
   tags?: string[];
   featured?: boolean;
-  preview?: string;
   featureNum?: number;
 }) {
   return (
@@ -82,18 +78,6 @@ function ProjectCard({
         <div className="text-4xl">{icon}</div>
       )}
 
-      {preview && (
-        <div className={cn("pointer-events-none relative flex flex-1 items-center justify-center overflow-hidden", featureNum === 1 ? "min-h-52 sm:min-h-72" : "min-h-28 sm:min-h-36")}>
-          <Image
-            src={preview}
-            alt={`${title} mobile application screenshot`}
-            width={890}
-            height={1840}
-            sizes={featureNum === 1 ? "(max-width: 640px) 65vw, 350px" : "(max-width: 640px) 35vw, 180px"}
-            className={cn("absolute top-3 h-auto w-auto max-w-none drop-shadow-xl transition-transform duration-500 group-hover:-translate-y-3 group-hover:scale-105", featureNum === 1 ? "max-h-[400px] sm:max-h-[520px]" : "max-h-[240px] sm:max-h-[290px]")}
-          />
-        </div>
-      )}
 
       <div className="relative z-10 mt-6">
         {featured && tags && <p className="text-caption text-muted mb-3">{tags.join(" · ")}</p>}
