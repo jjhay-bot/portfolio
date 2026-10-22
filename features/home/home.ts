@@ -46,12 +46,6 @@ export const PROJECTS: ProjectItem[] = [
     description: "Fees and service information for digital payments.",
     link: "https://eservice.cofeeui.com/",
   },
-  {
-    icon: "💍",
-    title: "Weds",
-    description: "Wedding inspirations organized into one vision board.",
-    link: "https://weds.cofeeui.com/",
-  },
   // {
   //   icon: "🛍️",
   //   title: "Bookas",
