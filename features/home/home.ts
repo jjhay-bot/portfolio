@@ -37,7 +37,7 @@ export const PROJECTS: ProjectItem[] = [
     title: "NearMe",
     description:
       "Discover nearby products and local merchants for faster, same-day purchases.",
-    link: "https://nearme.cofeeui.com/",
+    link: "https://nearme.cofeeui.com/hanapdito-mvp",
     tags: ["marketplace", "mobile-first"],
   },
   {
