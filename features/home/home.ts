@@ -37,7 +37,7 @@ export const PROJECTS: ProjectItem[] = [
     title: "NearMe",
     description:
       "Discover nearby products and local merchants for faster, same-day purchases.",
-    link: "https://nearme.cofeeui.com/",
+    link: "https://nearme.cofeeui.com/hanapdito-mvp",
     tags: ["marketplace", "mobile-first"],
   },
   {
@@ -45,12 +45,6 @@ export const PROJECTS: ProjectItem[] = [
     title: "eService",
     description: "Fees and service information for digital payments.",
     link: "https://eservice.cofeeui.com/",
-  },
-  {
-    icon: "💍",
-    title: "Weds",
-    description: "Wedding inspirations organized into one vision board.",
-    link: "https://weds.cofeeui.com/",
   },
   // {
   //   icon: "🛍️",
