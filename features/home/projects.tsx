@@ -46,6 +46,7 @@ function ProjectCard({
   description,
   tags,
   featured,
+  preview,
   featureNum = 1,
   ...props
 }: Omit<ComponentPropsWithoutRef<"a">, "target" | "rel"> & {
